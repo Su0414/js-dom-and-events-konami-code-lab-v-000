@@ -10,7 +10,7 @@ if (key === code[index]) {
   index++;
 
   if (index === code.length) {
-    alert("congratulations !");
+    window.alert("congratulations !");
     index = 0;
   }
 } else {
