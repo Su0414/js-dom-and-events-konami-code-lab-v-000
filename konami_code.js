@@ -11,6 +11,7 @@ if (key === code[index]) {
 
   if (index === code.length) {
     console.log('congratulations!');
+    alert('congratulations');
     index = 0;
   }
 } else {
